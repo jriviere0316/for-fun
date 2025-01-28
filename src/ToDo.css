@@ -1,0 +1,49 @@
+/* ToDo.css */
+body {
+    background-color: #282c34;
+    color: white; /* Optional: To make text more readable on dark background */
+    font-family: Arial, sans-serif; /* Optional: Set a custom font */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Style all tasks */
+  .task {
+    background-color: #282525;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: 2px solid #ccc; /* Add an outline around each task */
+  }
+  
+  /* Input styling inside task */
+  .task input {
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid #ccc; /* Optional: Add a border to input */
+  }
+  
+  /* Additional styling for the DOING section */
+  .task[data-status="doing"] {
+    border-left: 5px solid orange;
+  }
+  
+  /* Additional styling for the DONE section */
+  .task[data-status="done"] {
+    border-left: 5px solid green;
+    text-decoration: line-through; /* Strikethrough for done tasks */
+  }
+  
+  /* Style buttons */
+  .task button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for buttons */
+  .task button:hover {
+    background-color: darkred;
+  }
+  
