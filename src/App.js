@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import Home from './Home';
 import ToDo from './ToDo';
 import Calculator from './Calculator';
+import Journal from './Journal';
 import './App.css';
 
 
@@ -19,6 +20,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/ToDo" element={<ToDo />} />
         <Route path="/Calculator" element={<Calculator />} />
+        <Route path="/Journal" element={<Journal />} />
+
 
 
         
