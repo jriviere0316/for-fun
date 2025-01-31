@@ -1,0 +1,28 @@
+.navbar {
+    background: #333;
+    padding: 10px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .nav-links a:hover {
+    background-color: #555; /* Darker shade on hover */
+    border-radius: 5px; /* Optional: rounded corners on hover */
+  }
+  

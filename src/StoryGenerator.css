@@ -1,0 +1,147 @@
+/* Center the entire app */
+.story-generator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background: #fdf6e3; /* Soft warm background */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Title Styling */
+  .story-generator h2 {
+    font-size: 26px;
+    color: #444;
+    margin-bottom: 15px;
+  }
+  
+  /* Step input container */
+  .input-step {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Label Styling */
+  .input-step label {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  /* Input Fields */
+  .input-step input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border 0.3s ease;
+  }
+  
+  /* Input Focus Effect */
+  .input-step input:focus {
+    border-color: #ff914d;
+    outline: none;
+  }
+  
+  /* Buttons */
+  .input-step button {
+    background: #ff914d;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-top: 10px;
+  }
+  
+  .input-step button:hover {
+    background: #ff7b29;
+    transform: scale(1.05);
+  }
+  
+  /* Back button */
+  .input-step button:first-of-type {
+    background: #bbb;
+  }
+  
+  .input-step button:first-of-type:hover {
+    background: #999;
+  }
+  
+  /* Loading Text */
+  p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 15px;
+  }
+  
+  /* Story Display */
+  .story-display {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+    line-height: 1.5;
+  }
+  
+  /* Story Title */
+  .story-display h3 {
+    font-size: 22px;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  /* Story Text */
+  .story-display p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .story-generator {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .input-step {
+      width: 100%;
+    }
+  }
+  .quick-story-button {
+    background: #ff914d;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-top: 15px;
+  }
+  
+  .quick-story-button:hover {
+    background: #ff7b29;
+    transform: scale(1.05);
+  }
+  

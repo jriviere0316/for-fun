@@ -1,0 +1,100 @@
+/* ChatWrapper container - Centers all elements */
+.chat-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centers content vertically */
+    min-height: 100vh; /* Makes the container take full height of the viewport */
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centers text */
+  }
+  
+  /* Chat Header */
+  .chat-header {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Chat Input */
+  .chat-input {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    resize: vertical;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+    text-align: center; /* Centers text inside the textarea */
+  }
+  
+  .chat-input:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+  }
+  
+  /* Chat Button */
+  .chat-button {
+    padding: 12px 20px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .chat-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
+  .chat-button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+    transform: none;
+  }
+  
+  /* Chat Response */
+  .chat-response {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  /* Spinner Animation */
+  .spinner {
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #4caf50;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  

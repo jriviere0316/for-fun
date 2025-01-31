@@ -7,6 +7,7 @@ import ToDo from './ToDo';
 import Calculator from './Calculator';
 import Journal from './Journal';
 import ChatWrapper from './ChatWrapper';
+import StoryGenerator from './StoryGenerator';
 import './App.css';
 
 
@@ -23,6 +24,8 @@ function App() {
         <Route path="/Calculator" element={<Calculator />} />
         <Route path="/Journal" element={<Journal />} />
         <Route path="/ChatWrapper" element={<ChatWrapper />} />
+        <Route path="/StoryGenerator" element={<StoryGenerator />} />
+
 
 
         
