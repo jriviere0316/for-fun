@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import "./Journal.css";
+
 
 function Journal() {
   const [users, setUsers] = useState({}); // Store users and their journal entries
@@ -82,7 +84,7 @@ function Journal() {
   };
 
   return (
-    <div>
+    <div className="main">
       {!currentUser ? (
         <div>
           <h2>Login or Register to see your journal entries.</h2>
