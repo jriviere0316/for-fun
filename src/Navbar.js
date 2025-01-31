@@ -18,6 +18,9 @@ function Navbar() {
         <li>
           <Link to="/Journal">Journal</Link>
         </li>
+        <li>
+          <Link to="/ChatWrapper">Chat Wrapper</Link>
+        </li>
       </ul>
     </nav>
   );

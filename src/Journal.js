@@ -85,7 +85,7 @@ function Journal() {
     <div>
       {!currentUser ? (
         <div>
-          <h2>Login or Register</h2>
+          <h2>Login or Register to see your journal entries.</h2>
           <input
             type="text"
             value={username}
